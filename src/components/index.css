@@ -1,0 +1,45 @@
+@import url('https://fonts.googleapis.com/css?family=Poor+Story');
+
+.userdetailcover{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 40vh;
+}
+
+.UserDetailBody{
+    background-color: #e8e8e8;
+    height: 60vh;
+}
+
+.userdetailcover-img{
+    width: 100px;
+}
+
+.title-name{
+    color: white;
+    margin-left: 30px;
+    font-size: 25px;
+}
+
+.UserPost{
+    display: flex;
+    flex-direction: column;
+    margin: 4% 30% 1% 30%;
+    background-color: #fff;
+    padding: 10px;
+}
+.UserPost > h1,
+.UserPost > h2{
+    font-family: 'Poor Story', cursive;
+    margin: 0;
+}
+
+.UserPost > h1{
+    font-size: 1em;
+    font-weight: bold;
+}
+.UserPost > h2{
+    font-size: 0.9em;
+}
